@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1> <br>
+        <p id="description">Thank You for taking the time to help us improve the platform</p>
+    </header>
+    <section class="form-design">
+        <p>Name: <br> <input type="text" name="name" placeholder="Enter your Name" class="input"></p><br>
+        <p>Email: <br> <input type="text" name="email" placeholder="Enter your Email" class="input"></p> <br>
+        <p>Age(Optional): <br> <input type="number" name="age" placeholder="Enter your age" min="10" max="69"
+                class="input"></p><br>
+        <label for="role">Which option best describes your current role?</label><br>
+        <select id="role">
+            <option value="select current role" selected disabled>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="other">other</option>
+        </select>
+        <div class="recommend">
+            <h1>Would you recommend freeCodeCamp to a friend?</h1><br>
+            <label for="definitely"><input type="radio" id="definitely" class="definite"
+                    name="suggestion">Definitely</label><br>
+            <label for="maybe"><input type="radio" id="maybe" class="definite" name="suggestion">Maybe</label><br>
+            <label for="not sure"><input type="radio" id="not sure" class="definite" name="suggestion">Not
+                Sure</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
+            <select id="feature">
+                <option value="select your option" selected disabled>Select your option</option>
+                <option value="Student">Projects</option>
+                <option value="Full time Job">Challenges</option>
+                <option value="Full time Learner">Community</option>
+                <option value="Prefer not to say">Open Sources</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <br>
+        <h1>What would you like to see improved? (Check all that apply)</h1><br>
+        <label for="project-1"><input type="checkbox" class="definite" name="projects"
+                id="project-1">Front-end</label><br>
+        <label for="project-2"><input type="checkbox" class="definite" name="projects"
+                id="project-2">Back-end</label><br>
+        <label for="project-3"><input type="checkbox" class="definite" name="projects" id="project-3">Data
+            Visualization</label><br>
+        <label for="project-4"><input type="checkbox" class="definite" name="projects"
+                id="project-4">Challenges</label><br>
+        <label for="project-5"><input type="checkbox" class="definite" name="projects"
+                id="project-5">Open-Sources</label><br>
+        <label for="project-6"><input type="checkbox" class="definite" name="projects" id="project-6">Gitter
+            help</label><br>
+        <label for="project-7"><input type="checkbox" class="definite" name="projects" id="project-7">Video</label><br>
+        <label for="project-8"><input type="checkbox" class="definite" name="projects" id="project-8">City</label><br>
+        <label for="project-9"><input type="checkbox" class="definite" name="projects" id="project-9">Wiki</label><br>
+        <label for="project-10"><input type="checkbox" class="definite" name="projects"
+                id="project-10">Forum</label><br>
+        <label for="project-11"><input type="checkbox" class="definite" name="projects" id="project-11">Additional
+            Courses</label><br><br>
+
+        <div>
+            <h1>Any comments or suggestions?</h1>
+            <textarea name="text" id="" cols="15" rows="10" placeholder="Enter your text here"></textarea>
+        </div><br>
+        <button type="submit">Submit</button> -->
+    </section>
+</body>
+
+</html>
